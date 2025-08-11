@@ -1,0 +1,20 @@
+{
+  "name": "cnn_cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+ "scripts": {
+  "test": "cypress run --env allure=true",
+  "allure:generate": "npx allure generate allure-results --clean",
+  "allure:open": "npx allure open"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.41.2",
+    "cypress": "^14.5.4",
+    "cypress-xpath": "^2.0.1"
+  }
+}
